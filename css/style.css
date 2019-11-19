@@ -147,6 +147,10 @@ header {
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 }
+a#emm{
+	text-decoration: none;
+	color: #fff;
+}
 .button:hover {
 	background-color: #6DC7D0;
 	color: #FFFFFF;
