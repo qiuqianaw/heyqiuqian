@@ -3,7 +3,7 @@ body {
 	background:url(../images/bg1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	margin: 0;
+	
 }
 
 .container {
@@ -120,6 +120,7 @@ body {
 	border-radius: 60px 60px 60px 60px;
 	display: inline-block;
 	background: url(../images/bg1.png);
+	box-shadow:0px 0px  10px 5px #333333;
 }
 
 .column {
@@ -196,12 +197,14 @@ body {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-bottom: 0px;
 	background:#5379B9;
 	color: #333333;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
+	border-radius:  0 0 20px 20px;
 }
 footer {
 	background: url(../images/bg2.png);
@@ -216,6 +219,7 @@ footer {
 	border-radius:50%;
 	filter: blur(6px);
 	transition: all 0.3s;
+	box-shadow:0px 0px  10px 5px #333333;
 }
 .profile:hover{
 	filter: blur(0px);
