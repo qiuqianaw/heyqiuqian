@@ -3,7 +3,7 @@ body {
 	background:url(../images/bg1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	margin: 0;
+	
 }
 
 .container {
@@ -196,12 +196,14 @@ body {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-bottom: 0px;
 	background:#5379B9;
 	color: #333333;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
+	border-radius:  0 0 20px 20px;
 }
 footer {
 	background: url(../images/bg2.png);
