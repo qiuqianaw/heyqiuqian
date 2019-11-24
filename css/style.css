@@ -149,6 +149,7 @@ body {
 .gallery .thumbnail:hover{
 	filter: blur(0px);    
 	transform: translateY(-5px);
+	box-shadow: 0 3px 20px rgba(0,0,0,.28);
 }
 
 
@@ -194,6 +195,8 @@ body {
 	transform: translateY(-5px);
 	filter: blur(0px);
 	border-color: #5379B9;
+	box-shadow: 0 3px 20px rgba(0,0,0,.28);
+	-webkit-animation:index-link-active 1s cubic-bezier(.315,.605,.375,.925) forwards;
 }
 
 .copyright {
@@ -227,6 +230,7 @@ footer {
 	filter: blur(0px);
 	transition: all 0.3s;
 	transform: translateY(-5px);
+	box-shadow: 0 3px 20px rgba(0,0,0,.28);
 }
 .gallery .thumbnail .tag {
 	color: #5D5E5D;
@@ -236,4 +240,3 @@ footer {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
