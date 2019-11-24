@@ -196,7 +196,6 @@ body {
 	filter: blur(0px);
 	border-color: #5379B9;
 	box-shadow: 0 3px 20px rgba(0,0,0,.28);
-	-webkit-animation:index-link-active 1s cubic-bezier(.315,.605,.375,.925) forwards;
 }
 
 .copyright {
