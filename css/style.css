@@ -64,6 +64,7 @@ body {
 	overflow: hidden;
 	border-radius: 60px 60px 60px 60px;
 }
+
 .gallery::after{
 	content: '';
     position: absolute;
@@ -99,6 +100,7 @@ body {
 	border-radius: 30px;
 	transition: all 0.3s;
 }
+
 .gallery .thumbnail h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -107,6 +109,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
 .gallery .thumbnail p {
 	margin: 0;
 	color: #B3B3B3;
@@ -152,7 +155,6 @@ body {
 	box-shadow: 0 3px 20px rgba(0,0,0,.28);
 }
 
-
 .intro .column p {
 	padding-right: 30px;
 	text-align: justify;
@@ -164,6 +166,7 @@ body {
 	margin-top: 4%;
 	margin: 8px;
 }
+
 .button {
 	width: 200px;
 	margin-top: 40px;
@@ -184,6 +187,7 @@ body {
 	transition: all 0.3s;
     filter: blur(1px);
 }
+
 .button a{
 	text-decoration: none;
 	color: #6DC7D0;
@@ -211,6 +215,7 @@ body {
 	border-top-width: 2px;
 	border-radius:  0 0 20px 20px;
 }
+
 footer {
 	background: url(../images/bg2.png);
 	padding-top: 40px;
@@ -219,18 +224,21 @@ footer {
 	border-radius: 20px 20px 0 0;
 	
 }
+
 .profile {
 	width: 50%;
 	border-radius:50%;
 	filter: blur(6px);
 	transition: all 0.3s;
 }
+
 .profile:hover{
 	filter: blur(0px);
 	transition: all 0.3s;
 	transform: translateY(-5px);
 	box-shadow: 0 3px 20px rgba(0,0,0,.28);
 }
+
 .gallery .thumbnail .tag {
 	color: #5D5E5D;
 	padding-bottom: 4px;
