@@ -53,35 +53,27 @@ body {
 	margin-top: 20px;
 	margin-bottom: 0px;
 	background-color: rgba(0,0,0,0.3);
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -ms-filter: blur(2px);
-    -o-filter: blur(2px);
 	filter: blur(0px);    
 	z-index: 1;
 	background-position: center top;
 	background-size: cover;
 	overflow: hidden;
-	border-radius: 60px 60px 60px 60px;
+	border-radius: 60px;
+	backdrop-filter: blur(6px);
 }
 
 .gallery::after{
 	content: '';
-    position: absolute;
+
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(255,255,255,0.8);
 	z-index: -1;
-	background-image: url(../images/bg1.jpg);
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -ms-filter: blur(15px);
-    -o-filter: blur(15px);
     filter: blur(15px);
 }
 
