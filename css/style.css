@@ -1,17 +1,14 @@
 body {
-	font-family: Microsoft YaHei;
+	font-family: "PingFangSC-Regular", sans-serif;
 	background:url(../images/bg1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	
 }
 
 .container {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	background : url(../images/bg1.jpg);
-	background-attachment:fixed;
 }
 
 .logo {
@@ -47,24 +44,20 @@ body {
 	clear: both;
 	display: inline-block;
 	width: 100%;
-	background-color: #FFFFFF;
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: 20px;
 	margin-bottom: 0px;
 	background-color: rgba(0,0,0,0.3);
-	filter: blur(0px);    
 	z-index: 1;
 	background-position: center top;
 	background-size: cover;
 	overflow: hidden;
 	border-radius: 60px;
-	backdrop-filter: blur(6px);
+	backdrop-filter: blur(10px);
 }
 
 .gallery::after{
-	content: '';
-
     top: 0;
     left: 0;
     right: 0;
@@ -88,7 +81,6 @@ body {
 	margin-left: 1%;
 	margin-right: 1%;
 	padding-top: 0px;
-	border-bottom: 4px solid #6DC7D0;
 	border-radius: 30px;
 	transition: all 0.3s;
 }
@@ -138,8 +130,8 @@ body {
 	height: 220px;
 	max-width: 400px;
 	max-height: 400px;
-	opacity: 0.8;
-	border-radius: 30px;
+
+	border-radius: 25px;
 }
 .gallery .thumbnail:hover{
 	filter: blur(0px);    
@@ -219,12 +211,10 @@ footer {
 .profile {
 	width: 50%;
 	border-radius:50%;
-	filter: blur(6px);
 	transition: all 0.3s;
 }
 
 .profile:hover{
-	filter: blur(0px);
 	transition: all 0.3s;
 	transform: translateY(-5px);
 	box-shadow: 0 3px 20px rgba(0,0,0,.28);
