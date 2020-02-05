@@ -1,8 +1,12 @@
 body {
-	font-family: "PingFangSC-Regular", sans-serif;
 	background:url(../images/bg1.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+@font-face {
+	font-family: 'PingFangSC';
+	src: url(../fonts/PingFangSC.ttf);
 }
 
 .container {
@@ -40,6 +44,7 @@ body {
 	padding-right: 20px;
 	color: #A3A3A3;
 }
+
 .gallery {
 	clear: both;
 	display: inline-block;
@@ -121,10 +126,12 @@ body {
 	color: #3F4448;
 	text-align: center;
 }
+
 .intro .column p {
 	color: #3F4448;
 	font-size: large;
 }
+
 .cards {
 	width: 100%;
 	height: 220px;
@@ -133,6 +140,7 @@ body {
 
 	border-radius: 25px;
 }
+
 .gallery .thumbnail:hover{
 	filter: blur(0px);    
 	transform: translateY(-5px);
