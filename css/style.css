@@ -4,10 +4,17 @@ body {
 	background-attachment: fixed;
 }
 
+
 @font-face {
-	font-family: 'PingFangSC';
-	src: url(../fonts/PingFangSC.ttf);
+    font-family: 'myFont'; 
+    src: url(../fonts/PingFangSC.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
+html,body { 
+	font-family: myFont, sans-serif; 
+}
+
 
 .container {
 	width: 90%;
